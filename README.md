@@ -1,3 +1,3 @@
 # dogService
 
-## under construction docs comming soon but first, all the dog friends!
+## under construction docs coming soon but first, all the dog friends!

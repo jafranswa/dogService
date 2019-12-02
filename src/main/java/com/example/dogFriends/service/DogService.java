@@ -6,4 +6,9 @@ import org.springframework.data.repository.CrudRepository;
 public interface DogService
         extends CrudRepository<Dog, Integer>{
 
+    Iterable<Dog> findByDogNameAndOwnerName(
+            String dogName,
+            String ownerName
+    );
+
 }

@@ -12,10 +12,16 @@ public class Dog {
     @GeneratedValue
     private int id;
 
-    private String name;
-    private String owner;
+    private String dogName;
+    private String ownerName;
 
     public Dog() {
+    }
+
+    public Dog(int id, String dogName, String ownerName) {
+        this.id = id;
+        this.dogName = dogName;
+        this.ownerName = ownerName;
     }
 
     public int getId() {
@@ -26,19 +32,19 @@ public class Dog {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getDogName() {
+        return dogName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setDogName(String dogName) {
+        this.dogName = dogName;
     }
 
-    public String getOwner() {
-        return owner;
+    public String getOwnerName() {
+        return ownerName;
     }
 
-    public void setOwner(String owner) {
-        this.owner = owner;
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
     }
 }
