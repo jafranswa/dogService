@@ -1,7 +1,7 @@
 # dogService
 A simple REST/CRUD api that records a dog entity consisting of a dog name and an owner name
 ## Requirments
-JDK 8+, Maven
+JDK 8+, Maven, MAMP
 
 ## Quick Start
 install maven https://maven.apache.org/install.html
@@ -11,6 +11,16 @@ check for maven version
 install JDK 8+ https://openjdk.java.net/install/
 check for jdk version
 ```java -version```
+
+install MAMP & setup Database https://www.mamp.info/en/downloads/
+
+after install:
+- open MAMP
+- start MAMP server
+- click MAMP webstart navigate to Tools>phpmyadmin
+- create database New>Add user account
+- username=dogFriends hostname=localhost password=dogfriends
+- click Go
 
 ##### Install
 ```mvn install```
