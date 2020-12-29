@@ -1,12 +1,17 @@
 # dogService
 A simple REST/CRUD api that records a dog entity consisting of a dog name and an owner name
-##### Dependencies
+## Requirments
 JDK 8+, Maven
 
 ## Quick Start
 install maven https://maven.apache.org/install.html
+check for maven version
+```mvn -v```
 
 install JDK 8+ https://openjdk.java.net/install/
+check for jdk version
+```java -version```
+
 ##### Install
 ```mvn install```
 ##### Run
