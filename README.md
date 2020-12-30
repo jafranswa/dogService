@@ -20,6 +20,7 @@ after install:
 - click MAMP webstart navigate to Tools>phpmyadmin
 - create database New>Add user account
 - username=dogFriends hostname=localhost password=dogfriends
+- check "Create database with same name and grant all privileges"
 - click Go
 
 ##### Install
