@@ -15,6 +15,7 @@ public class DogController {
 
     @PostMapping("/dog")
     Dog createDog(@RequestBody Dog newdog){
+        println("git demo");
         return dogService.save(newdog);
     }
 
